@@ -1,0 +1,402 @@
+/*post your job*/
+.job-text-41-41{
+    float: left;
+    color: #B5C1C1;
+    margin-left: 1%;
+    width: 98%;
+}
+
+.form-group-41-41{
+    width: 98%;
+    height: 155px;
+    margin-top: -100px;
+}
+
+.textarea-bottom-text-4{
+    font-size: 11px;
+    color: #B5C1C1;
+}
+.modal-title{
+    color: #B5C1C1;
+    text-align: center;
+}
+.modal-body{
+    overflow:auto;
+}
+.job-text-1{
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    margin-left: 5%;
+}
+.job-text-1:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.job-text-1-1{
+    color: #B5C1C1;
+    margin-left: 5%;
+}
+.job-text-2{
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+     margin-left: 5%;
+}
+.job-text-2:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.job-text-2-2{
+    color: #B5C1C1;
+    margin-left: 5%;
+}
+.street-adress-job{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    background-color: #EAF1F4;
+    /*border-left: 10px #EAF1F4 solid;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;*/
+}
+.street-adress-job:hover{
+    background-color: #EDF4F7;
+    /*border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;*/
+}
+.street-adress-job i{
+   font-size: 27px;
+    margin-left: 15px;
+    margin-top: 6px;
+    color: #1093CB;
+}
+.job-text-3{
+    border-radius: 3px;
+    width: 92%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    border-left: 0;
+    float: right;
+}
+.job-text-3:hover{
+    background-color: #EDF4F7;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+    border-left: 0;
+}
+.job-text-3-3{
+    color: #B5C1C1;
+    margin-left: 5%;
+}
+
+
+.job-text-5{
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+     margin-left: 5%;
+    float: left;
+    margin-top: -11px;
+}
+.job-text-5:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.job-text-5-5{
+    color: #B5C1C1;
+    margin-left: 5%;
+    float: left;
+}
+.job-text-66{
+    color: #B5C1C1;
+    margin-left: 5%;
+    float: left;
+    margin-top: 1px
+    
+}
+.job-text-6{
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+     margin-left: 5%;
+    float: left;
+    
+}
+.job-text-6:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.collapse1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    color: #1093CB
+}
+.close-save{
+     width: 30%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 2px;
+}
+.footer-job{
+    overflow:auto;
+}
+.panel-title a{
+    text-decoration: none;
+    display: block;
+}
+.panel-title a:hover{
+    text-decoration: none;
+}
+
+
+.job-text-7{
+    border-radius: 3px;
+    width: 10%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    margin-left: 5%;
+    float: left;
+    
+    
+}
+.job-text-8{
+    border-radius: 3px;
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    margin-left: 1%;
+    float: left;
+    
+}
+.job-text-7-7{
+    color: #B5C1C1;
+    margin-left: 5%;
+    margin-top: 10px;
+    float: left;
+}
+.e-mail-glyphicon{
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    margin-left: 5%;
+    float: left;
+    margin-top: 5px;
+}
+.e-mail-glyphicon:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.job-text-9{
+    width: 95%;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: #EAF1F4;
+    border-bottom: 5px #EAF1F4 solid;
+    border-right: 5px #EAF1F4 solid;
+    border-top: 5px #EAF1F4 solid;
+    float: right;
+    margin-top: -5px;
+    border-left: 0;
+}
+.e-mail-glyphicon span{
+    float: left;
+    width: 5%;
+    height: 20px;
+    font-size: 20px;
+    color: #1093CB;
+    border-radius: 3px;
+    margin-left: -2px;
+}
+.e-mail-text{
+    margin-left: 5%;
+    color: #B5C1C1;
+    margin-top: 20px
+}
+.site-text{
+    margin-left: 5%;
+    color: #B5C1C1
+}
+.site-glyphicon{
+    width: 90%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 15px;
+    border-left: 10px #EAF1F4 solid;
+    background-color: #EAF1F4;
+    border-bottom: 10px #EAF1F4 solid;
+    border-right: 10px #EAF1F4 solid;
+    border-top: 10px #EAF1F4 solid;
+    margin-left: 5%;
+    float: left;
+    margin-top: 5px;
+}
+.site-glyphicon:hover{
+    background-color: #EDF4F7;
+    border-left: 10px #EDF4F7 solid;
+    border-bottom: 10px #EDF4F7 solid;
+    border-top: 10px #EDF4F7 solid;
+    border-right: 10px #EDF4F7 solid;
+}
+.site-glyphicon i{
+    float: left;
+    width: 5%;
+    height: 20px;
+    font-size: 20px;
+    color: #1093CB;
+    border-radius: 3px;
+    margin-left: -2px;
+}
+.job-text-10{
+    width: 95%;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: #EAF1F4;
+    border-bottom: 5px #EAF1F4 solid;
+    border-right: 5px #EAF1F4 solid;
+    border-top: 5px #EAF1F4 solid;
+    float: right;
+    margin-top: -5px;
+    border-left: 0;
+}
+
+.job-text11{
+    margin-left: 5%;
+    color: #B5C1C1
+}
+
+.job-type{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    color: #B5C1C1;
+}
+
+
+.radio-inline, .checkbox-inline {
+  
+    margin-top: 1px; 
+}
+.panel-heading h4{
+    color: #B5C1C1;
+    
+}
+.collapse-1-1 {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #EAF1F4;
+    border-radius: 5px
+}
+.collapse-1-1:hover{
+    background-color: #EDF4F7;
+}
+
+
+.form-group1{
+    width: 98%;
+    margin-left: 1%;
+    height: 140px;
+    margin-top: 16px
+}
+.form-group1 label{
+    width: 100%;
+}
+.form-group1 textarea{
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    background-color: #EDF4F7;
+}
+.job-text-15-15{
+    margin-left: 2%;
+    color: #B5C1C1;
+    float: left;
+    width: 96%
+}
+
+.form-group1 textarea{
+    width: 100%;
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    background-color: #EDF4F7;
+}
+/*post yor job ends*/
+
+@media screen and (max-width: 510px) {
+.job-text-3 {
+    display: none;
+}
+
+}

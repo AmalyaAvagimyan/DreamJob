@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> DreamJob.am </title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/job.css">
+		<link rel="stylesheet" href="css/cv.css">
+		<link rel="stylesheet" href="css/register.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<link href="css/bootstrap.css" rel="stylesheet"/>
+		<link href="css/bootstrap-select.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+		<link href="css/custombox.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+	<body>
+	<!--menu-->
+				<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+				<button type="button" class="navbar-toggle"
+				data-toggle="collapse"
+				data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">DreamJob.am</a>
+			<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown">
+					<a href="#" class="dropdown-toggle"
+					data-toggle="dropdown"> Jobs <b class="caret"></b>
+					<ul class="dropdown-menu">
+					<li><a href="#"> Find your job </a></li>
+					<li><a href="#"> Tell us more </a></li>
+					</ul>
+					</li>
+			<li><a href="#" data-toggle="modal" data-target="#myModal">Create Your CV</a></li>
+			<li><a href="#" data-toggle="modal" data-target="#myModal2">Post Your Job</a>
+			</li>
+			<li><a href="#" data-toggle="modal" data-target="#myModal3">Login/Register</a>
+			</li>
+			<li><a href="#" data-toggle="modal" data-target="#myModal4">Contact Us </a></li>
+			</ul>
+			</div>
+			</nav>
+	<!--menu-end-->
+	<div class="pozitioning">
+		<div class="search-job">
+			<h1>DreamJob.am</h1>
+			<p>Follow Your Dreams...</p>
+	<!--search area-->
+	<form>
+	 <div class="middle-form">
+		<div class="form-group">
+
+			<div class="col-xs-3">
+				<input class="form-control" id="ex1" type="text" placeholder="Keywords">
+				</div>
+				<div class="col-xs-3">
+				<input class="form-control" id="ex1" type="text" placeholder="Location">
+				</div>
+<!--select button-->
+<select class="selectpicker" data-live-search="true">
+	<option data-tokens="ketchup mustard">Any category</option>
+	<option data-tokens="mustard">Programming</option>
+	<option data-tokens="frosting">Web development</option>
+	<option data-tokens="frosting">System Administration</option>
+	<option data-tokens="frosting">Accounting</option>
+	<option data-tokens="frosting">Design</option>
+	<option data-tokens="frosting">Translation</option>
+	<option data-tokens="frosting">Art</option>
+	<option data-tokens="frosting">Advertising</option>
+</select>
+
+		<button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+		</div>
+	</div>
+	</form>
+	</div>
+	</div>
+			<nav class="menu">
+  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+  <label class="menu-open-button" for="menu-open">
+    <span>Statistics</span>
+   
+  </label>
+  
+  <a href="#" class="menu-item"> 230 </br> Vacancies </a>
+  <a href="#" class="menu-item"> 50 </br> Resumes </a>
+  <a href="#" class="menu-item"> 42 </br> Jobs filled </a>
+  <a href="#" class="menu-item"> 18</br> Partners </a>
+  <a href="#" class="menu-item"> 213 </br>Companies </a>
+
+</nav>
+<!-- filters -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="shadowed-goo">
+          
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feBlend in2="shadow" in="goo" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
+			<!--job-list-starts-->
+	<div class="job-list">
+		<h1>Resent Jobs</h1>
+		<ul class="list-for-jobs" id="listid">
+			<li class="main-list" > 
+				<ul class="list-for-position">
+					<li><div class="images_logo">
+						<img src="./images/job_logo.jpg"/>
+						</div>
+					</li>
+					<li>
+						<h4>Front-End Developer</h4>
+					<h5><strong>Infromation Systems LLC</strong></h5>
+					</li>
+					 
+				    <li> <div class="job_location">
+				    <p><strong><span class="glyphicon glyphicon-map-marker"></span> &nbsp;New York, USA</strong></p> 
+						</div>
+					</li>
+				    <li> 
+				    	<div class="full-time">
+				    		<h5><strong>FULL TIME</strong></h5> <br/>
+						</div>
+						<div class="closing-date">
+							<p><span class="glyphicon glyphicon-calendar">
+							</span><strong>Closes:&nbsp;</strong>Feb 11, 2017</p> 
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="main-list"> 
+				<ul class="list-for-position">
+					<li><div class="images_logo">
+						<img src="./images/job_logo.jpg"/>
+						</div>
+					</li>
+					<li>
+						<h4>Front-End Developer</h4>
+					<h5><strong>Infromation Systems LLC</strong></h5>
+					</li>
+					 
+				    <li> <div class="job_location">
+				    <p><strong><span class="glyphicon glyphicon-map-marker"></span> &nbsp;New York, USA</strong></p> 
+						</div>
+					</li>
+				    <li> 
+				    	<div class="full-time">
+				    		<h5><strong>FULL TIME</strong></h5> <br/>
+						</div>
+						<div class="closing-date">
+							<p><span class="glyphicon glyphicon-calendar">
+							</span><strong>Closes:&nbsp;</strong>Feb 11, 2017</p> 
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="main-list"> 
+				<ul class="list-for-position">
+					<li><div class="images_logo">
+						<img src="./images/job_logo.jpg"/>
+						</div>
+					</li>
+					<li>
+						<h4>Front-End Developer</h4>
+					<h5><strong>Infromation Systems LLC</strong></h5>
+					</li>
+					 
+				    <li> <div class="job_location">
+				    <p><strong><span class="glyphicon glyphicon-map-marker"></span> &nbsp;New York, USA</strong></p> 
+						</div>
+					</li>
+				    <li> 
+				    	<div class="full-time">
+				    		<h5><strong>FULL TIME</strong></h5> <br/>
+						</div>
+						<div class="closing-date">
+							<p><span class="glyphicon glyphicon-calendar">
+							</span><strong>Closes:&nbsp;</strong>Feb 11, 2017</p> 
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="main-list"> 
+				<ul class="list-for-position" >
+					<li><div class="images_logo">
+						<img src="./images/job_logo.jpg"/>
+						</div>
+					</li>
+					<li>
+						<h4>Front-End Developer</h4>
+					<h5><strong>Infromation Systems LLC</strong></h5>
+					</li>
+					 
+				    <li> <div class="job_location">
+				    <p><strong><span class="glyphicon glyphicon-map-marker"></span> &nbsp;New York, USA</strong></p> 
+						</div>
+					</li>
+				    <li> 
+				    	<div class="full-time">
+				    		<h5><strong>FULL TIME</strong></h5> <br/>
+						</div>
+						<div class="closing-date">
+							<p><span class="glyphicon glyphicon-calendar">
+							</span><strong>Closes:&nbsp;</strong>Feb 11, 2017</p> 
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li class="main-list"> 
+				<ul class="list-for-position" >
+					<li><div class="images_logo">
+						<img src="./images/job_logo.jpg"/>
+						</div>
+					</li>
+					<li>
+						<h4>Front-End Developer</h4>
+					<h5><strong>Infromation Systems LLC</strong></h5>
+					</li>
+					 
+				    <li class="display-none"> <div class="job_location">
+				    <p><strong><span class="glyphicon glyphicon-map-marker"></span> &nbsp;New York, USA</strong></p> 
+						</div>
+					</li>
+				    <li class="media"> 
+				    	<div class="full-time">
+				    		<h5><strong>PART TIME</strong></h5> <br/>
+						</div>
+						<div class="closing-date">
+							<p><span class="glyphicon glyphicon-calendar">
+							</span><strong>Closes:&nbsp;</strong>Feb 11, 2017</p> 
+						</div>
+					</li>
+				</ul>
+			</li>
+			</ul>
+			 <a class="load-button" role="button" id="loadid">Load more jobs</a>
+			 <span style="display:none" id="step">0</span>
+	</div>
+     <footer>
+	 	<div class="footerS">
+	 		<div class="copy-right">
+	 			<p>&copy; 2014 &nbsp; DreamJob Team. All rights reserved </p>
+	 		</div>
+		<div class="social">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
+	<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"  data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	 	</div>
+	 	</footer>
+<!--Create your cv-->
+	<section>
+
+
+<!-- Modal -->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal111">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">PERSONAL INFORMATION</h4>
+      </div>
+      <div class="modal-body">
+        <form method="post">
+               <p class="cv-text-1-1">First name(s)</p>
+            <input type="text" class="cv-text-1" placeholder="Karen" required="requierd" id="firstname">
+               <br/><br/>
+            <p class="cv-text-2-2">Surname(s)</p>
+            <input type="text" class="cv-text-2" placeholder="Hakobyan" required="requierd" id="lastname">
+               <br/><br/>
+            <p class="cv-text-3-3">Street address</p>
+            <div class="street-adress-cv">
+            <i class="fa fa-map-marker" aria-hidden="true" title="Street address"></i>
+            <input type="text" class="cv-text-3" placeholder="Abovyan 13/1" required="requierd" id="address">
+            </div>
+            <br/>
+            <p class="cv-text-5-5">Region</p>
+            <br/><br/>            
+            <input type="text" class="cv-text-5" placeholder="Syuniq" required="requierd" id="region">
+            <br/><br/>
+            <p class="cv-text-66">City</p>
+            <br/><br/>
+        
+           <input type="text" class="cv-text-6" placeholder="Kapan" required="requierd" id="city">
+           <br/><br/><br/>
+           <hr>
+           <p class="cv-text-7-7">Telephone(s)</p>
+           <br/><br/>
+           <input type="text" class="cv-text-7" placeholder="  010"  id="hphonecode">
+           <input type="text" class="cv-text-8" placeholder="0 0 0 0 0 0" required="requierd" id="hphone">
+           <br/><br/><br/>
+           <input type="text" class="cv-text-7" placeholder="+374" id="mphonecode">
+           <input type="text" class="cv-text-8" placeholder="9 1 0 0 0 0 0 0" required="requierd" id="mphone">
+           <br/><br/><br/>
+            <p class="e-mail-text">E-mail</p>
+            <div class="e-mail-glyphicon">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <input type="text" class="cv-text-9" placeholder="DreamJob@gmail.com" required="requierd"  id="email">
+            </div>
+            <br/><br/><br/><br/>
+            <p class="site-text">Website / Blog</p>
+            <div class="site-glyphicon">
+            <i class="material-icons">computer</i>
+            <input type="text" class="cv-text-10" placeholder="DreamJob.am" id="web">
+            </div>
+            <br/><br/><br/>
+             
+                <br/>
+                <span class="cv-text11">Date of birth</span>
+                     <br/><br/>
+                   <input type="date" name="bday" class="date-bday" id="birth">
+                   <div class="male-female">
+                    <p class="cv-text12"></p>
+                   <label class="radio-inline"><input type="radio" name="optradio" class="radio1" checked="checked" value="male">Male</label>
+                   <label class="radio-inline"><input type="radio" name="optradio" class="radio2" value="female">Female</label>
+                   <label class="radio-inline"><input type="radio" name="optradio" class="radio3" value="Do not indicate">Do not indicate</label>
+                       
+                   </div> 
+          <div class="panel-group" id="accordion">
+            <div class="collapse-1-1">    
+                <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Work experience</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+          <p class="cv-text-11-11">Company Name</p> <p class="cv-text-12-12">Job title</p>
+          <input type="text" class="cv-text-11" placeholder="" id="w1">
+          <input type="text" class="cv-text-12" placeholder=" " id="j1">
+          <br/><br/><br/><br/>
+          <p class="cv-text-13-13">Start date</p> <p class="cv-text-14-14">End date</p>
+          <input type="text" class="cv-text-111" placeholder="" id="s1">
+          <input type="text" class="cv-text-122" placeholder=" " id="e1">
+          <br/><br/><br/><br/>
+          <p class="cv-text-11-11">Company Name</p> <p class="cv-text-12-12">Job title</p>
+          <input type="text" class="cv-text-1111" placeholder="" id="w2">
+          <input type="text" class="cv-text-1222" placeholder=" " id="j2">
+          <br/><br/><br/><br/>
+          <p class="cv-text-13-13">Start date</p> <p class="cv-text-14-14">End date</p>
+          <input type="text" class="cv-text-11111" placeholder="" id="s2">
+          <input type="text" class="cv-text-12222" placeholder=" " id="e2">
+          <br/><br/><br/><br/>
+          <p class="cv-text-11-11">Company Name</p> <p class="cv-text-12-12">Job title</p>
+          <input type="text" class="cv-text-13" placeholder=" " id="w3">
+          <input type="text" class="cv-text-14" placeholder=" " id="j3">
+          <br/><br/><br/><br/>
+          <p class="cv-text-13-13">Start date</p> <p class="cv-text-14-14">End date</p>
+          <input type="text" class="cv-text-13" placeholder=" " id="s3">
+          <input type="text" class="cv-text-14" placeholder=" " id="e3">
+          <br/>
+          
+          
+          <div class="form-group">
+              <label for="comment"><p class="cv-text-15-15">Achievements and responsibilities</p></label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          <p class="textarea-bottom-text">Its advised to provide comprehensive formation about your achievements and responsibilities.</p>
+
+          
+      </div>
+    </div>
+  </div>
+              </div>
+                <div class="collapse-3-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Qualifications</a>
+                      </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                       <div class="panel-body">
+                       
+                       <p class="cv-text-16-16">Driving License</p> <p class="cv-text-17-17">Military Service</p>
+                       <input type="text" class="cv-text-16" placeholder=" ">
+                       
+                       <input type="text" class="cv-text-17" placeholder=" ">
+                       
+                       <p class="cv-text-16-bottom-text">Mention the category and the date received</p>
+                       
+                       <p class="cv-text-17-bottom-text">Mention the dates and place of service</p>
+          
+        
+                       </div>
+                    </div>
+                </div>
+              </div>
+              <div class="collapse-3-3">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Languages</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+          
+          <p class="cv-text-18-18">Armenian</p>
+          <input type="text" class="cv-text-18" placeholder="Excellent">
+          <input type="text" class="cv-text-19" placeholder="Good">
+          <input type="text" class="cv-text-20" placeholder="Fair">
+          <br/><br/><br/>
+          <p class="cv-text-19-19">Russian</p>
+          <input type="text" class="cv-text-21" placeholder="Excellent">
+          <input type="text" class="cv-text-22" placeholder="Good">
+          <input type="text" class="cv-text-23" placeholder="Fair">
+          <br/><br/><br/>
+          <p class="cv-text-20-20">English</p>
+          <input type="text" class="cv-text-24" placeholder="Excellent">
+          <input type="text" class="cv-text-25" placeholder="Good">
+          <input type="text" class="cv-text-26" placeholder="Fair">
+          <br/><br/><br/>
+          <input type="text" class="cv-text-27" placeholder="Other">
+          <input type="text" class="cv-text-28" placeholder="Excellent">
+          <input type="text" class="cv-text-29" placeholder="Good">
+          <input type="text" class="cv-text-30" placeholder="Fair">
+          <br/><br/><br/>
+          <input type="text" class="cv-text-31" placeholder="Other">
+          <input type="text" class="cv-text-32" placeholder="Excellent">
+          <input type="text" class="cv-text-33" placeholder="Good">
+          <input type="text" class="cv-text-34" placeholder="Fair">
+         
+      </div>
+    </div>
+  </div>
+           </div>
+           
+   <div class="collapse5-education">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Education</a>
+      </h4>
+    </div>          
+                         
+                                   
+      </div>          
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">
+          <p class="cv-text-35-35">Level of education</p>
+          <input type="text" class="cv-text-35" placeholder=" ">
+          <br/> <br/> <br/> <br/>
+         <p class="cv-text-36-36">Institution name</p> <p class="cv-text-37-37">Course name</p>
+         <input type="text" class="cv-text-36" placeholder=" ">
+         <input type="text" class="cv-text-37" placeholder=" ">
+         <br/> <br/> <br/> <br/>
+         <p class="cv-text-38-38">Start date</p> <p class="cv-text-39-39">End date</p>
+         <input type="text" class="cv-text-38" placeholder=" ">
+         <input type="text" class="cv-text-39" placeholder=" ">
+         
+        <div class="form-group-38-38">
+         <div class="form-group">
+              <label for="comment">
+              <p class="cv-text-39-39">Other information</p>
+              </label>
+              <textarea class="form-control" rows="5" id="comment">
+                  
+              </textarea>
+              <p class="textarea-bottom-text-2">Its advised to provide comprehensive formation about your achievements and responsibilities.</p>
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+              </div>
+              
+              
+ <div class="collapse6-Interests">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Interests</a>
+      </h4>
+    </div>                                    
+      </div>
+                
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+          
+         
+        <div class="form-group-40-40">
+         <div class="form-group">
+              <label for="comment">
+              <p class="cv-text-40-40">Interests</p>
+              </label>
+              <textarea class="form-control" rows="5" id="comment">
+                  
+              </textarea>
+              <p class="textarea-bottom-text-3">Its advised to provide comprehensive formation about your achievements and responsibilities.</p>
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+    </div>
+    
+        
+        
+         <div class="collapse7-References">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">References</a>
+      </h4>
+    </div>                                    
+      </div>
+                
+    <div id="collapse7" class="panel-collapse collapse">
+      <div class="panel-body">
+          
+         
+        <div class="form-group-41-41">
+         <div class="form-group">
+              <label for="comment">
+              <p class="cv-text-41-41">References</p>
+              </label>
+              <textarea class="form-control" rows="5" id="comment">
+                  
+              </textarea>
+              <p class="textarea-bottom-text-3">Its advised to provide comprehensive formation about your achievements and responsibilities.</p>
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+    </div>
+    
+    <div class="collapse8-photo">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Photo</a>
+      </h4>
+    </div>                                    
+      </div>
+    
+    <div id="collapse8" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="form-group-42-42">
+         <div class="form-group">
+              
+              <div class="upload-photo">
+                  
+              </div>
+              
+              <input type="file" name="img" multiple>
+             
+              <p>
+                gif, jpg, png, jpeg <br/> 320 x 400 px
+              </p>
+              
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+  </div>
+            </div>
+            
+        </form>
+      </div>
+       <div class="footer-cv">
+       <div class="panel panel-default">
+    <div class="collapse1">
+     <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" title="click!" data-parent="#accordion" href="#collapse2">
+        Learn more</a>
+      </h4>
+    </div>
+   
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Your rights are defended.</div>
+    </div>
+     </div>
+  
+      <div class="close-save">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"  onClick="return generatepdf();">Save</button>
+      </div>
+      </div>
+        </div>
+    </div>
+  </div>
+    </div>
+        </div>
+
+        </section> 	
+        <!--cvend-->
+
+	 	<!--Post your joob starts-->
+  <!--Post your joob starts-->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel>
+        <div class="modal111">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">POST YOUR JOB OFFER</h4>
+      </div>
+      <div class="modal-body">
+<form method="post">
+               <p class="job-text-1-1">Comapny Name</p>
+            <input type="text" class="job-text-1" placeholder="AmiCo LLC">
+               <br/><br/>
+            <p class="job-text-2-2">Field of Activity</p>
+            <input type="text" class="job-text-2" placeholder="Commerce">
+               <br/><br/>
+                <p class="job-text-2-2">Position</p>
+            <input type="text" class="job-text-2" placeholder="Web developer">
+               <br/><br/>
+            <p class="job-text-3-3">Street address</p>
+            <div class="street-adress-job">
+            <i class="fa fa-map-marker" aria-hidden="true" title="Street address"></i>
+            <input type="text" class="job-text-3" placeholder="Abovyan 13/1">
+            </div>
+            <br/>
+            <p class="job-text-5-5">Country</p>
+            <br/><br/>            
+            <input type="text" class="job-text-5" placeholder="Republic of Armenia">
+            <br/><br/>
+            <p class="job-text-66">City</p>
+            <br/><br/>
+           <input type="text" class="job-text-6" placeholder="Yerevan">
+           <br/><br/><br/>
+           <hr>
+           <p class="job-text-7-7">Telephone(s)</p>
+           <br/><br/>
+           <input type="text" class="job-text-7" placeholder="+374 ******">
+           <input type="text" class="job-text-8" placeholder="+374 ******">
+           <br/><br/><br/>
+           <input type="text" class="job-text-7" placeholder="+374 *******">
+           <input type="text" class="job-text-8" placeholder="+374 ******">
+           <br/><br/><br/>
+            <p class="e-mail-text">E-mail</p>
+            <div class="e-mail-glyphicon">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <input type="text" class="job-text-9" placeholder="DreamJob@gmail.com">
+            </div>
+            <br/><br/><br/><br/>
+            <p class="site-text">Website / Blog</p>
+            <div class="site-glyphicon">
+            <i class="material-icons">computer</i>
+            <input type="text" class="job-text-10" placeholder="DreamJob.am">
+            </div>
+            <br/><br/><br/> <br/>
+                <span class="job-text11">Job Type</span>
+                     <br/>
+                 
+                   <div class="job-type">
+                  
+                   <label class="radio-inline"><input type="radio" name="optradio" class="radio1" checked="checked">Full time</label>
+                   <label class="radio-inline"><input type="radio" name="optradio" class="radio2">Part time</label>
+                  <label class="radio-inline"><input type="radio" name="optradio" class="radio2">Temporary</label>  
+                   </div> 
+  <div class="panel-group" id="accordion2" >
+ <div class="collapse6-Interests">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse16">Responsibilities</a>
+      </h4>
+    </div>                                    
+      </div>
+                
+    <div id="collapse16" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="form-group-40-40">
+         <div class="form-group">
+              <label for="comment">
+              <p class="cv-text-40-40">Responsibilities required for the position:</p>
+              </label>
+              <textarea class="form-control" rows="5" id="comment">
+              </textarea>
+           
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+    </div>
+                
+    <div class="panel-group" >                                        <div class="collapse7-References">
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse17">Qualifications</a>
+      </h4>
+    </div>                                    
+      </div>
+                
+    <div id="collapse17" class="panel-collapse collapse">
+      <div class="panel-body">
+          
+         
+        <div class="form-group-41-41">
+         <div class="form-group">
+              <label for="comment">
+              <p class="job-text-41-41">Qualifications required for the position:</p>
+              </label>
+              <textarea class="form-control" rows="5" id="comment">
+                  
+              </textarea>
+            
+         </div>
+        </div>  
+      </div>
+    </div>
+    
+    </div>                                                                      </div>
+
+ 
+</div>    
+	</form>
+      </div>
+       <div class="footer-job">
+       <div class="panel panel-default">
+    <div class="collapse1">
+     <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" title="click!" data-parent="#accordion" href="#collapse2">
+        Learn more</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Your rights are defended.</div>
+    </div>
+     </div>
+      <div class="close-save">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+      </div>
+      </div>
+        </div>
+    </div>
+  </div>
+    </div>
+        </div>
+
+        </section>
+
+     <!--Post your job ends-->
+
+	  
+
+     <!--Post your job ends-->
+
+	<!--login/register-starts-->
+	<section>
+    <div class="modal fade bs-example-modal-lg" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+         <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-login-register">
+                <div class="Login-block">
+                   <b><p class="login-header">Login</p></b>
+                </div>
+             <form>
+              <br/><br/>
+               <p class="login-input"><b>USERNAME OR EMAIL ADDRESS *</b></p>
+                <input type="text" class="login" placeholder="">
+                <br/><br/>
+                 <p class="password-input"><b>PASSWORD *</b></p>
+                <input type="password" class="password" placeholder="">
+                <br/><br/>
+                <div class="button-login">
+                    
+                 <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                     <b>LOGIN</b>
+                 </button>
+                 <br/>
+                 <label class="checkbox-inline"><input type="checkbox" value="">Remember me</label>
+                 <br/>
+                 <i class="fa fa-question-circle" aria-hidden="true">           Lost your password?</i>
+                </div>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+             </form>
+     
+            </div>
+            <div class="modal-login-registr-2">
+                
+                <div class="registr-block">
+                   <b><p class="login-header">Register</p></b>
+                </div>
+                <form>
+                <br/><br/>
+                <p class="first-input"><b>FIRST NAME</b></p> <p class="last-input"><b>LAST NAME</b></p>
+                <input type="text" class="first" placeholder="">
+                 
+                <input type="text" class="last" placeholder="">
+                <br/><br/><br/><br/>
+                <p class="email-input"><b>EMAIL ADDRESS *</b></p>
+                <input type="text" class="email" placeholder="">
+                <br/><br/><br/><br/>
+                <p class="password-2-input"><b>PASSWORD *</b></p>
+                <input type="password" class="email" placeholder="">
+                
+                <div class="register-button">
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                     <b>REGISTER</b>
+                </button>
+                </div>
+                </form>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                
+                
+                
+            </div> 
+             
+             
+             
+             
+             
+          </div>
+         </div>
+        </div>
+            
+        </section>
+	<!--login/register-ends-->
+</section>
+
+<!--contact us starts-->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Get in Touch</h4>
+        </div>
+        <div class="modal-body">
+          
+<form class="contact-form" name='registration' onSubmit="return kaderValidation();" method="post" action="mailto:vardush.khachatryan@mail.com">
+<ul>
+<li>
+  <label for="fname">First name:</label></li>
+<li><input class="contact-input" type="text" name="fname" size="50" placeholder="Vardush" /></li>
+<li><label for="lname">Last name:</label></li>
+<li><input class="contact-input" type="text" name="lname" size="50" placeholder="Khachatryan" /></li>
+<li><label for="address">Address:</label></li>
+<li><input class="contact-input" type="text" name="address" size="50" placeholder="Somewhere" /></li>
+<li><label for="Mnumber">Mobile number:</label></li>
+<li><input class="contact-input" type="text" name="Mnumber"  placeholder="+374 77 777777"/></li>
+<li><label for="email">Email:</label></li>
+<li><input class="contact-input" type="text" name="email" size="50" placeholder="vardush.khachatryan@mail.com" /></li>
+<li><label for="desc">Inquiry:</label></li>
+<li><textarea name="inquiry" id="inquiry"></textarea></li>
+<li><input class="contact-input" type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+	 </footer>
+
+
+	 </footer>
+
+
+
+			
+	 
+
+
+
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-select.js"></script>
+	<script src="js/custombox.js"></script>
+	<script src="js/jspdf.debug.js"></script>
+	<script src="js/executive.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,266 @@
+.login-header{
+    float: left;
+    font-size: 30px;
+    color: #797979;
+    margin-left: 5%;
+    margin-top: 30px;  
+}
+.Login-block{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #D9D9D9;
+    background-color: white
+}
+.modal-content{
+    overflow: auto;
+}
+.modal-login-register{
+    background: #FAFAFA;
+    width: 50%;
+    overflow: auto;
+    float: left;
+}
+.login{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+}
+.login:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+}
+.login-input{
+    margin-left: 5%;
+    color: #797979;
+    width: 90%;
+}
+.password{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+}
+.password:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+  
+}
+
+.password-input{
+    margin-left: 5%;
+    color: #797979;
+    width: 90%;
+}
+
+
+
+.button-login button{
+    margin-left: 5%;
+    margin-top: 15px;
+    height: 50px;
+    width: 20%;
+    border: 2px solid #337AB7;
+}
+.button-login button:hover{
+    border: 2px solid #337AB7;
+    background-color: white;
+    color: #337AB7;
+    transition: 0.5s
+}
+.checkbox-inline{
+    margin-left: 5%;
+    margin-top: 15px;
+    color: #797979;
+}
+.button-login i{
+    color: #797979;
+    margin-left: 5%;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+/*
+    2
+*/
+
+.modal-login-registr-2{
+    width: 50%;
+    overflow: auto;
+    float: left; 
+    background: #FAFAFA;
+    
+}
+
+
+.registr-block{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #D9D9D9;
+    background-color: white;
+    
+}
+
+.first-input{
+    margin-left: 5%;
+    color: #797979;
+    width: 45%;
+    float: left
+}
+.first{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 42%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+    float: left
+}
+.first:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+}
+.last-input{
+    margin-left: 3%;
+    color: #797979;
+    width: 47%;
+    float: left
+}
+.last{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 42%;
+    height: 40px;
+    margin-left: 6%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+    float: left
+}
+.last:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+}
+
+.email-input{
+    margin-left: 5%;
+    color: #797979;
+    width: 90%;
+    float: left
+}
+.email{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+    float: left
+}
+.email:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+}
+
+.password-2-input{
+    margin-left: 5%;
+    color: #797979;
+    width: 90%;
+    float: left
+}
+.password{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin-top: -10px;
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 6px;
+    color: #797979;
+    font-size: 16px;
+    border: 1px solid #A6A6A6;
+    float: left
+}
+.password:hover{
+    border-left: 15px #FFFFFF solid;
+    border-bottom: 10px #FFFFFF solid;
+    border-top: 10px #FFFFFF solid;
+    border-right: 10px #FFFFFF solid;
+    border: 1px solid #A6A6A6;
+    transition: 0.3s
+}
+
+
+.register-button button{
+    margin-left: 5%;
+    margin-top: 25px;
+    height: 45px;
+    width: 25%;
+    border: 2px solid #337AB7;
+}
+.register-button button:hover{
+    border: 2px solid #337AB7;
+    background-color: white;
+    color: #337AB7;
+    transition: 0.5s
+}
